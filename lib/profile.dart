@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-class Home extends StatefulWidget {
+class Profile extends StatefulWidget {
   @override
-  _HomeState createState() => _HomeState();
+  _ProfileState createState() => _ProfileState();
 }
 
-class _HomeState extends State<Home> {
+class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home"),
+        title: Text("Profile"),
       ),
       body: Center(
-        child: Text("Home Alone"),
+        child: Text("Profile"),
       ),
     );
   }
