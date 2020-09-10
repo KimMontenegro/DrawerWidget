@@ -18,7 +18,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Drawer Widget"),
       ),
-      body: Center(child: Text('My Page!')),
+      body: Center(child: Text('Nothing to show here')),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
