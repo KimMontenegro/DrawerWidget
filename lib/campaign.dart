@@ -13,7 +13,11 @@ class _CampaignState extends State<Campaign> {
         title: Text("Campaign"),
       ),
       body: Center(
-        child: Text("Campaigns"),
+        child: Image(
+              image: AssetImage("assets/images/about.png"),
+              width: double.infinity,
+              fit: BoxFit.fitWidth,
+            ),
       ),
     );
   }

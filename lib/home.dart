@@ -13,7 +13,11 @@ class _HomeState extends State<Home> {
         title: Text("Home"),
       ),
       body: Center(
-        child: Text("Home Alone"),
+        child: Image(
+              image: AssetImage("assets/images/1.png"),
+              width: double.infinity,
+              fit: BoxFit.fitWidth,
+            ),
       ),
     );
   }

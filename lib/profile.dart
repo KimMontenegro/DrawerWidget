@@ -13,7 +13,11 @@ class _ProfileState extends State<Profile> {
         title: Text("Profile"),
       ),
       body: Center(
-        child: Text("Profile"),
+        child: Image(
+              image: AssetImage("assets/images/profile.png"),
+              width: double.infinity,
+              fit: BoxFit.fitWidth,
+            ),
       ),
     );
   }
